@@ -1,0 +1,41 @@
+body > header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(40, 40, 75);
+  display: flex;
+  padding: 2rem 0rem;
+  justify-content: center;
+  align-items: center;
+}
+
+body > header > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > header > a img {
+  width: 12%;
+  height: 12%;
+  object-fit: contain;
+  justify-content: start;
+}
+
+body > header > nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+body > header > nav a {
+  text-decoration: none;
+  color: var(--text-gray);
+}
+hr {
+  width: 100vw; /* La línea ocupará el 100% del ancho de la ventana */
+  border: none; /* Sin bordes adicionales */
+  border-top: 2px solid yellow; /* Línea amarilla con un grosor de 2px */
+}
